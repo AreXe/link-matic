@@ -1,14 +1,9 @@
-# Compiled class file
+# Compilation
+target/
 *.class
 
 # Log file
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
 # Package Files #
 *.jar
@@ -19,5 +14,19 @@
 *.tar.gz
 *.rar
 
+# IntelliJ
+.idea
+.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Exceptions
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
